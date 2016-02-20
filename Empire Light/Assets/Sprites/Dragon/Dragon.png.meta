@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: ef6e180965b0fb346b6f81a7baa42f34
+timeCreated: 1438526993
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Body
+    21300004: Tail
+    21300006: Tail Flame
+    21300008: Leg Right
+    21300010: Arm Left
+    21300012: Leg Left
+    21300014: Arm Right
+    21300016: Hand Right
+    21300018: Hand Left
+    21300020: Arm Left 2
+    21300022: Arm Right 2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 74
+        width: 209
+        height: 197
+      alignment: 9
+      pivot: {x: .596640766, y: .153359473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 98
+        width: 117
+        height: 173
+      alignment: 9
+      pivot: {x: .413684279, y: .505559742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 132
+        width: 108
+        height: 139
+      alignment: 9
+      pivot: {x: .134870172, y: .160946414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail Flame
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 167
+        width: 56
+        height: 103
+      alignment: 9
+      pivot: {x: .422712058, y: .0611179695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg Right
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 15
+        width: 90
+        height: 115
+      alignment: 9
+      pivot: {x: .43053624, y: .700724661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm Left
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 121
+        width: 56
+        height: 43
+      alignment: 9
+      pivot: {x: .791976929, y: .634205282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg Left
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 5
+        width: 101
+        height: 90
+      alignment: 9
+      pivot: {x: .776162028, y: .628240824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm Right
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 72
+        width: 80
+        height: 47
+      alignment: 9
+      pivot: {x: .145334244, y: .377216429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hand Right
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hand Left
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 43
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm Left 2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 24
+        height: 40
+      alignment: 9
+      pivot: {x: .620225906, y: .235504061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm Right 2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 23
+        height: 39
+      alignment: 9
+      pivot: {x: .562726915, y: .79594028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
