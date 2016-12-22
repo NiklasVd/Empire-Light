@@ -34,7 +34,11 @@ public class ActorAttributes
     }
     public int TotalFistDamage
     {
-        get { return this[ActorAttributeType.BasePunchDamage] + this[ActorAttributeType.BonusPunchDamage]; }
+        get { return this[ActorAttributeType.BaseFistDamage] + this[ActorAttributeType.BonusFistDamage]; }
+    }
+    public int TotalFistSpeed
+    {
+        get { return this[ActorAttributeType.BaseFistSpeed] + this[ActorAttributeType.BonusFistSpeed]; }
     }
 
     public ActorAttributes()
@@ -48,7 +52,8 @@ public class ActorAttributes
         attributes.Add(ActorAttributeType.BonusPhysicalResistance, 0);
         attributes.Add(ActorAttributeType.BonusPoisonResistance, 0);
         attributes.Add(ActorAttributeType.BonusFootstepHearRange, 0);
-        attributes.Add(ActorAttributeType.BonusPunchDamage, 0);
+        attributes.Add(ActorAttributeType.BonusFistDamage, 0);
+        attributes.Add(ActorAttributeType.BonusFistSpeed, 0);
     }
 }
 
@@ -70,9 +75,9 @@ public enum ActorAttributeType
     BaseFootstepHearRange,
     BonusFootstepHearRange,
 
-    BasePunchDamage,
-    BonusPunchDamage,
+    BaseFistDamage,
+    BonusFistDamage,
 
-    BasePunchSpeed,
-    BonusPunchSpeed
+    BaseFistSpeed,
+    BonusFistSpeed
 }
